@@ -16,7 +16,7 @@ builder.Services.AddScoped<IParkingSpotSelectListService, ParkingSpotSelectListS
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//builder.Services.AddTransient<IParkingSlotRepository, ParkingSlotRepository>();
+//builder.Services.AddTransient<IParkingSlotRepository, ParkingSlotRepositoy>();
 
 var app = builder.Build();
 
